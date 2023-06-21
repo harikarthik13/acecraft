@@ -1,11 +1,42 @@
-#cards{
-    width:99%;
-} 
-#border-banner{
-    border: solid beige .11em;  
-    margin-top: 380px;
-    margin-left: 450px; 
+.main {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Home-1.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-h2{
-    font-size: 35px;
+
+#backgroundimg2 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/home3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 550px;
+    padding-bottom: 200px;
+    transition: all .7s ease-in-out;
+}
+
+#backgroundimg3 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/home4.jpg);
+    width: 100%;
+    padding-top: 550px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .7s ease-in-out;
+}
+
+#backgroundimg3:hover,
+#backgroundimg2:hover {
+    transform: scale(1.1);
+}
+
+h5 {
+    color: white
+}
+
+body h5:hover {
+    color: black
 }

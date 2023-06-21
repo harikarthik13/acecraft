@@ -1,4 +1,17 @@
-.col-2{
+.col-4{
     border-right: solid beige .1em;
     }
-   
+.container-fluid{
+    background-color: #b2b3b5;
+}
+h6,h2{
+    color:#978f8f;
+}
+.float-end{
+    text-align: end;  
+}
+.overlay{
+    color:#978f8f;
+    margin-top: 230px;
+}
+ 
