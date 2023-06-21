@@ -1,0 +1,11 @@
+#cards{
+    width:99%;
+} 
+#border-banner{
+    border: solid beige .11em;  
+    margin-top: 380px;
+    margin-left: 450px; 
+}
+h2{
+    font-size: 35px;
+}
