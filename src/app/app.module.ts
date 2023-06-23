@@ -22,7 +22,7 @@ import { SchoolComponent } from './school/school.component';
     NotesComponent,
     AirenComponent,
     EnterprisesComponent,
-    SchoolComponent
+    SchoolComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,10 @@
-<div class="card text-white bg-dark col-6 mt-5" style="max-width: 18rem;" *ngfor="let Notes of notelist">
-    <div class="card-header"></div>
-    <div class="card-body">
-      <p class="card- mt-5">{{Notes.text}}</p>
-    </div></div>
+<h1 class="text-center">Blogs</h1>
+<div class=" text-center row mb-5">
+<div class="card col-4 ms-5 bg-black mt-5" style="width: 38rem;height: 20rem;" *ngFor="let Notes of notelist">  
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text text-light">{{Notes.text}}</p>
+    <a href="#" class=""></a>
+  </div>
+</div>
+</div>

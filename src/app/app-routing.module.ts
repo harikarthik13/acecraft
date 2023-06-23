@@ -6,6 +6,7 @@ import { NotesComponent } from './notes/notes.component';
 import { AirenComponent } from './airen/airen.component';
 import { EnterprisesComponent } from './enterprises/enterprises.component';
 import { SchoolComponent } from './school/school.component';
+
 const routes: Routes = [
   {path:"college",component:CollegeComponent},
   {path:"",component:HomeComponent},
