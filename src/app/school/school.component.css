@@ -1,0 +1,60 @@
+.main {
+    background-size: cover;
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/School-1.jpg);
+    background-position: center 122px;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.main .row {
+    width: 100.9%;
+}
+
+.designer {
+    margin-top: 390px;
+    color: #978f8f;
+    margin-bottom: 130px;
+}
+
+#text1 {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: #978f8f;
+}
+
+.main2 {
+    background-size: cover;
+    background-image: url(https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/School-2.jpg);
+    background-position: center 122px;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#text2 {
+    padding-top: 100px;
+    color: #978f8f;
+}
+
+.main3 {
+    background-size: 100%;
+    background-image: url(https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/School-41.jpg );
+    background-position: top;
+    min-height: 565px !important;
+    background-repeat: no-repeat;
+    font-size: 30px !important;
+}
+
+.signature {
+    font-family: 'Blenheim Signature', sans-serif;
+    font-size: 18px;
+    position: relative;
+    margin: auto;
+    width: 200px;
+}
+
+body {
+    overflow-x: hidden;
+    color: #978f8f;
+}

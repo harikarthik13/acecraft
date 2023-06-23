@@ -1,0 +1,47 @@
+.main {
+    background-size: cover;
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Enterprises-1.jpg);
+    background-position: center 120px;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.main .row {
+    width: 100.9%;
+}
+
+#font {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.workwear {
+    margin-top: 440px;
+    color: #978f8f;
+    margin-bottom: 130px;
+}
+
+.img1 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Enterprises-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    width: 280px;
+    min-height: 270px;
+    color: #978f8f;
+    position: relative;
+    z-index: 0;
+}
+
+.cards .card-cont {
+    position: absolute;
+    z-index: 1;
+}
+
+body {
+    font-family: "proxima";
+}
+
+#imgtext {
+    margin-top: -600px;
+}

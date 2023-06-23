@@ -7,6 +7,10 @@ import { CollegeComponent } from './college/college.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { NotesComponent } from './notes/notes.component';
+import { AirenComponent } from './airen/airen.component';
+import { EnterprisesComponent } from './enterprises/enterprises.component';
+import { SchoolComponent } from './school/school.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { FooterComponent } from './footer/footer.component';
     CollegeComponent,
     NavbarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    NotesComponent,
+    AirenComponent,
+    EnterprisesComponent,
+    SchoolComponent
   ],
   imports: [
     BrowserModule,
