@@ -1,0 +1,25 @@
+.card {
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    border: 1px solid;
+}
+
+.card-img {
+    height: 376px;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-hover {
+    position: absolute;
+    z-index: 1;
+    margin-top: -220px;
+    margin-left: 130px;
+}

@@ -44,6 +44,11 @@
     min-height: 565px !important;
     background-repeat: no-repeat;
     font-size: 30px !important;
+    color: #978f8f;
+}
+
+::placeholder {
+    color: #978f8f;
 }
 
 .signature {
@@ -52,9 +57,42 @@
     position: relative;
     margin: auto;
     width: 200px;
+    color: #978f8f;
+}
+
+em {
+    color: #978f8f;
 }
 
 body {
     overflow-x: hidden;
+}
+
+.main3 em:before,
+.main3 em::after {
+    display: inline-block;
+    content: "";
+    border-top: .10rem solid #978f8f;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(0rem);
+}
+
+#key {
+    font-size: medium;
+    position: relative;
+    animation: mymove 1s infinite;
     color: #978f8f;
+}
+
+@keyframes mymove {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 5px;
+    }
+    100% {
+        bottom: 0px;
+    }
 }

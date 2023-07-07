@@ -1,85 +1,188 @@
-<div class="card bg-dark mt-5" style="color:#978f8f;">
-    <img src="{{img}}" class="card-img mt-5" alt="...">
-    <div class="card-img-overlay">
-        <div class="row ms-1 mt-5" id="cards">
-            <div class="col-sm-6 mt-5"></div>
-            <div class="col-sm-6 mt-5"><h1 class="mt-5 float-end me-5">The acecraft Collection.</h1>
-                <p class="float-end me-5">Simple. Sharp.<br>
-                Detailed perfection that makes you<br>                
-                look good and feel great. Put it on. It's like magic.</p>
-            </div>
+<body>
+  <section class="banner">
+      <div class="container">
+          <div class="row justify-content-center justify-content-md-end">
+              <div class="col-md-7 text-center text-md-end" id="content-img-1">
+                  <b>The acecraft Collection.</b><br>
+                  <span>Simple. Sharp.</span><br>
+                  <span>Detailed perfection that makes you
+                  </span><br>
+                  <span>look good and feel great. Put it on. It's like magic.</span><br><br>
+                  <h4><span>Classic</span> | <span>Absolute</span> | <span class="pe-0">Signature</span></h4>
+              </div>
           </div>
-          <div class="row text-center">
-            <div class="col-sm-6 mt-5"></div>
-            <div class="row col-sm-6">
-            <div class="col-4"><h4>Classic</h4></div>
-            <div class="col-4"><h4>Absolute</h4></div>
-            <div class="col-4 border-0"><h4>Signature</h4></div>
-          </div></div>      
-    </div>
+      </div>
+  </section>
+
+  <section class="main-content">
+      <div class="container-fluid">
+          <div class="row justify-content-center">
+              <div class="col-md-4 text-center pt-5">
+                  <img src="http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/woolen-ball.jpg" width="89%" alt="cutting_edge_img"><br>
+                  <b>Naturally Cutting-Edge.</b>
+                  <p>The ‘best of both worlds’ has a new definition. Every fabric in the acecraft line-up is made from a blend of two fibres to give you the best range. No tech involved - it’s just the touch of nature.
+                  </p>
+              </div>
+          </div>
+
+          <div class="container" id="row2">
+              <div class="row">
+                  <div class="col-md-6 text-center">
+                      <img src="http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Wool.png" width="40%" alt="Blended Wool">
+                  </div>
+                  <div class="col-md-6 text-center text-md-start">
+                      <b>The Blended Wool</b>
+                      <p>The Blended Wool is a class apart - with a mix of polyester for its wrinkle/crease-resistance and wool for warmth and absorbency, end your day looking the same as how you began it.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="container" id="row2">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start">
+                      <b>The Blended Cotton</b>
+                      <p>The Blended Cotton is extremely strong and breathable. Easy to iron, this variant shrinks lesser than pure cotton and retains its colour, which makes it a favourite choice for your everyday college wear.</p>
+                  </div>
+                  <div class="col-md-6 text-center">
+                      <img src="http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Cotton.png" width="40%" alt="Blended Cotton">
+                  </div>
+              </div>
+          </div>
+
+          <div class="container" id="row2">
+              <div class="row">
+                  <div class="col-md-6 text-center">
+                      <img src="http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Viscose.png" width="40%" alt="Blended Viscose
+                      ">
+                  </div>
+                  <div class="col-md-6 text-center text-md-start">
+                      <b>The Blended Viscose</b>
+                      <p>The Blended Viscose addition combines two ends of the spectrum - durability and a sense of softness. While the polyester contributes to resilience and shape retention, the viscose adds on to the overall absorbency, both sharpening
+                          and softening your look at the same time.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <section class="banner-2 pt-5">
+          <div class="container-fluid" id="banner-2">
+              <div class="row justify-content-center">
+                  <div class="col-md-4 text-center" id="content-img-2">
+                      <span>THE ACECRAFT FIT</span><br>
+                      <b>Comfy.</b><br>
+                      <b>Very comfy.</b><br>
+                      <span>It’s not just the fabric - it’s also the fit.</span><br>
+                      <span>The shoulders and sleeves fit right while the body feels relaxed, making it undoubtedly
+                          the best.
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </section>
+
+  <section class="carousel">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-4 text-md-start text-center">
+                  <b>Your pre-trial.<br>
+                      Powered by our AI.</b><br>
+                  <span>The acecraft Measurement Process is one among the world's most accurate methods. We set up a
+                      pre-trial event in your campus and make each one try on the right fit. No more guessing the
+                      right
+                      size business.</span>
+              </div>
+              <div class="col-md-8">
+                  <div id="carouselExampleControls" class="carousel slide float-md-end" data-bs-ride="carousel">
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active" *ngFor="let img of collegeCarousel">
+                              <img [src]="img.imgSrc" class="d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="banner-3">
+      <div class="container-fluid">
+          <div class="row justify-content-center">
+              <div class="col-md-4  text-center" id="content-img-3">
+                  <span>Designer Uniforms
+                  </span><br>
+                  <em style="font-family: 'Blenheim Signature', sans-serif;">by</em>
+                  <h5>a c e c r a f t</h5>
+                  <button type="button" class="bg-transparent border-2 border-light px-2 py-1 text-light mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Get In Touch</button>
+              </div>
+
+          </div>
+      </div>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="model-header mt-5">
+
+                  <button type="button" class="btn-close float-end me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <h5 class="modal-title text-center  fs-4" id="exampleModalLabel">Get your Uniform Designed and<br>styled by Us! </h5>
+
+              </div>
+              <div class="modal-body mt-4">
+                  <form>
+                      <!-- 2 column grid layout with text inputs for the first and last names -->
+                      <div class="row mb-3">
+                          <div class="col">
+                              <div class="form-outline">
+                                  <input type="text" id="form6Example1" class="form-control" placeholder="First Name" />
+
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="form-outline">
+                                  <input type="text" id="form6Example4" class="form-control" placeholder="Last Name" />
+
+                              </div>
+                          </div>
+                      </div>
+
+
+
+                      <!-- Email input -->
+                      <div class="form-outline mb-3">
+                          <input type="email" id="form6Example5" class="form-control" placeholder="Professional Email" />
+
+                      </div>
+
+                      <!-- Number input -->
+                      <div class="form-outline mb-3">
+                          <input type="text" id="form6Example6" class="form-control" placeholder="Organisation" />
+                      </div>
+
+
+                      <div class="form-outline mb-3">
+                          <input type="text" id="form6Example6" class="form-control" placeholder="Phone No." maxlength="10" minlength="10" />
+                      </div>
+
+                      <div class="form-outline mb-3 justify-content-between text-secondary">
+                          <label for="quantity" class="mb-3 mt-3 ms-3">Quantity Required: </label><br>
+                          <input type="radio" class="ms-3" value="10-50 Sets" name="quantity" /><label for="sets">10-50 Sets</label>
+                          <input type="radio" class="ms-5" value="51-100 Sets" name="quantity" /><label for="sets">51-100 Sets</label>
+                          <input type="radio" class="ms-5" value="100+ Sets" name="quantity" /><label for="sets">100+ Sets</label>
+                      </div>
+
+                      <!-- Submit button -->
+
+                      <button type="submit" class="btn btn-secondary btn-block col-12 mb-4 rounded-pill">Place order</button>
+
+                  </form>
+              </div>
+          </div>
+      </div>
   </div>
-  <div class="container-fluid text-center">
-    <img src="assets/img/woolenball.jpg" width="350px">
-    <h2>Naturally Cutting-Edge.</h2>
-    <span>The ‘best of both worlds’ has a new definition. Every fabric in<br>
-       the acecraft line-up is made from a blend of two fibres to<br> give you the best range. No tech involved - it’s just the touch<br> 
-       of nature.</span>
-  
-  <div class="container">
-  <div class="row wool">
-    <div class="col-md-6">
-      <img src="assets/img/Wool.png" width="250px" class="mt-5 ms-5">
-    </div>
-    <div class="col-md-6 mt-5"><h2>The Blended Wool</h2>
-      <span>Blended Wool is a class apart - with a mix of polyester<br> for its wrinkle/crease-resistance and wool for warmth and<br>
-         absorbency, end your day looking the same as how you<br>began it.</span></div>
-  </div></div>
-
-  <div class="container">
-    <div class="row wool">
-      <div class="col-md-6 mt-5"><h2>The Blended Cotton</h2>
-        <span class="float-left">The Blended Cotton is extremely strong and breathable.<br>
-           Easy to iron, this variant shrinks lesser than pure cotton and<br>
-            retains its colour, which makes it a favourite choice for your<br> everyday college wear.</span></div>
-           <div class="col-md-6">
-            <img src="assets/img/Cotton.png" width="250px" class="mt-5 ms-5">
-          </div>
-    </div></div>
-
-    <div class="container">
-      <div class="row wool">
-        <div class="col-md-6">
-          <img src="assets/img/Viscose.png" width="250px" class="mt-5 ms-5">
-        </div>
-        <div class="col-md-6 mt-5"><h2>The Blended Viscose</h2>
-          <span> The Blended Viscose addition combines two ends of the<br>
-             spectrum - durability and a sense of softness. While the<br>
-             polyester contributes to resilience and shape retention, the<br>
-             viscose adds on to the overall absorbency, both sharpening<br>
-             and softening your look at the same time.</span></div>
-      </div></div>
-    </div>
-    
-    <div class="card text-white">
-      <img src="assets/img/man.jpg" class="card-img" alt="...">
-      <div class="card-img-overlay overlay">
-        <div class="text-center">
-          <span>ACECRAFT FIT</span>
-          <h3>Comfy.<br>
-            Very comfy.</h3>
-            <span>It’s not just the fabric - it’s also the fit.<br>
-              The shoulders and sleeves fit right while the body feels<br>relaxed, making it undoubtedly the best.</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="card text-white">
-      <img src="assets/img/wman.jpg" class="card-img" alt="...">
-      <div class="card-img-overlay overlay">
-        <div class="text-center">
-          <h3>Designer Uniforms</h3>
-          <Span><h4>acecraft</h4></Span> 
-          <button type="button" class="btn btn-outline-light">Get in Touch</button>         
-        </div>
-      </div>
-    </div>

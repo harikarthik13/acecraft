@@ -1,0 +1,21 @@
+body {
+    color: #978f8f;
+}
+
+.col-4 {
+    min-height: 75vh;
+}
+
+input::placeholder {
+    color: #978f8f;
+    font-weight: 500;
+}
+
+.register {
+    cursor: pointer;
+}
+
+label {
+    color: #978f8f;
+    font-weight: 600;
+}

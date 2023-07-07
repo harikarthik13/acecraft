@@ -1,0 +1,187 @@
+<body>
+    <div class="container border border-1 mt-5 mb-4">
+        <div class="row justify-content-center mt-5 mb-4">
+            <div class="col-lg-4 col-md-12 shadow-lg">
+                <form [formGroup]="react_formRes" (ngsubmit)="onSubmit(react_formRes)">
+                    <div class="form-group">
+                        <div class="text-center ">
+                            <p class="fs-2 mt-4">Signup with ACECRAFT </p>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control mt-2" placeholder="First Name" formControlName="Fname" [ngClass]="{'is-invalid':Fname.errors &&
+                (Fname.touched || Fname.dirty),'is-valid': Fname.valid}" />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="Fname.errors?.required">Required field</h6>
+                                <h6 *ngI f="Fname.errors?.minlength">Fast name length must be greater than {{ Fname.errors?.minlength.requiredLength }} characters. {{Fname.errors?.minlength.requiredLength -Fname.errors?.minlength.actualLength}}more characters required.
+                                </h6>
+                                <h6 *ngIf="Fname.errors?.maxlength">Fast name length must be less than 17 characters
+                                </h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" class="form-control" placeholder="Last Name" formControlName="Lname" [ngClass]="{'is-invalid':Lname.errors &&
+                (Lname.touched || Lname.dirty),'is-valid': Lname.valid}" />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="Lname.errors?.required">Required field</h6>
+                                <h6 *ngIf="Lname.errors?.minlength">Last name length must be greater than {{ Lname.errors?.minlength.requiredLength }} characters. {{Lname.errors?.minlength.requiredLength -Lname.errors?.minlength.actualLength}}more characters required.
+                                </h6>
+                                <h6 *ngIf="Lname.errors?.maxlength">Last name length must be less than 17 characters
+                                </h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="email" class="form-control " placeholder="Email" formControlName="Email" [ngClass]="{'is-invalid':Email.errors &&
+                (Email.touched || Email.dirty),'is-valid': Email.valid}" />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="Email.errors?.required">Required field</h6>
+                                <h6 *ngIf="Email.errors?.minlength">Email length must be greater than {{ Email.errors?.minlength.requiredLength }} characters. {{Email.errors?.minlength.requiredLength -Email.errors?.minlength.actualLength}}more characters required.
+                                </h6>
+                                <h6 *ngIf="Email.errors?.maxlength">Email length must be less than 17 characters
+                                </h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-start fs-6 fst-normal text-danger">
+                            <input type="password" class="form-control" placeholder="Password" formControlName="Password" [ngClass]="{'is-invalid':Password.errors &&
+                    (Password.touched || Password.dirty),'is-valid': Password.valid}" required />
+                            <div class="invalid-feedback">
+                                <h6 *ngIf="Password.errors?.required">Required Field</h6>
+                                <h6 *ngIf="Password.errors?.minlength">Password length must be greater than {{ Password.errors?.minlength.requiredLength }} characters. {{Password.errors?.minlength.requiredLength -Password.errors?.minlength.actualLength}}more characters required.
+                                </h6>
+                                <h6 *ngIf="Password.errors?.maxlength">Password length must be less than 17 characters{{Password.errors?.maxlength.actualLength -Password.errors?.maxlength.requiredLength}}more than 17 characters.
+                                </h6>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div>
+                            <input type="password" class="form-control " placeholder="Confirm Password" formControlName="cPassword" [ngClass]="{'is-invalid':cPassword.errors &&
+                (cPassword.touched || cPassword.dirty),'is-valid': cPassword.valid}" />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="cPassword.errors?.required">Required field</h6>
+                                <h6 *ngIf="cPassword.errors?.minlength">cPassword length must be greater than {{ cPassword.errors?.minlength.requiredLength }} characters. {{cPassword.errors?.minlength.requiredLength -cPassword.errors?.minlength.actualLength}}more characters required.
+                                </h6>
+                                <h6 *ngIf="cPassword.errors?.maxlength">cPassword length must be less than 17 characters
+                                </h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center justify-content-between mb-2">
+                            <input type="radio" value="school" name="Radiobtn" class="me-1 " formControlName="Radiobtn" [ngClass]="{'is-invalid':Radiobtn.errors &&   (Radiobtn.touched || Radiobtn.dirty),'is-valid': Radiobtn.valid}"><label for="school"
+                                class="fs-6">School</label>
+                            <input type="radio" value="enterprises" class="ms-5 me-1" name="Radiobtn" formControlName="Radiobtn" [ngClass]="{'is-invalid':Radiobtn.errors &&   (Radiobtn.touched || Radiobtn.dirty),'is-valid': Radiobtn.valid}"><label for="enterprises"
+                                class="fs-6">Enterprises</label>
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="Radiobtn.errors?.required">Required field</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control " placeholder="Dealership Name" formControlName="Dealership" [ngClass]="{'is-invalid':Dealership.errors &&
+                (Dealership.touched || Dealership.dirty),'is-valid': Dealership.valid}" />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="Dealership.errors?.required">Required field</h6>
+
+
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" class="form-control " placeholder="Dealership Number/Code" formControlName="DealershipNum" [ngClass]="{'is-invalid':DealershipNum.errors &&
+                (DealershipNum.touched || DealershipNum.dirty),'is-valid': DealershipNum.valid}" />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="DealershipNum.errors?.required">Required field</h6>
+                                <h6 *ngIf="DealershipNum.errors?.pattern">Should Containe only 8 number</h6>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" class="form-control" placeholder="City" formControlName="City" [ngClass]="{ 'is-invalid':City.errors && (City.touched || City.dirty), 'is-valid': City.valid} " />
+
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger">
+
+                                <h6 *ngIf="City.errors?.required ">Required field</h6>
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="State">State</label>
+                            <select class="form-control" name="State" id="State" formControlName="State">
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Puducherry">Puducherry</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" class="form-control" placeholder="GST Number" formControlName="GSTNum" [ngClass]="{ 'is-invalid':GSTNum.errors && (GSTNum.touched || GSTNum.dirty), 'is-valid': GSTNum.valid} " />
+                            <div class="invalid-feedback text-start fs-6 fst-normal text-danger ">
+
+                                <h6 *ngIf="GSTNum.errors?.required">Required field</h6>
+
+                            </div>
+
+                        </div>
+                        <br>
+
+                        <button type="submit" class="mb-3 col-12 bg-black text-white register" [disabled]="!react_formRes.valid" (click)="onSubmit(react_formRes)">Register</button>
+
+
+                    </div>
+                    <div class="text-center mt-4 mb-5">
+                        <p class="fs-6 ">Already have an account?
+                            <a class="text-decoration-none text-secondary fs-6 " routerLink="/sign_in">Login!</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

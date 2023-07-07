@@ -11,26 +11,14 @@
 }
 
 #font {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 540;
 }
 
 .workwear {
     margin-top: 440px;
     color: #978f8f;
     margin-bottom: 130px;
-}
-
-.img1 {
-    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Enterprises-2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 180%;
-    width: 280px;
-    min-height: 270px;
-    color: #978f8f;
-    position: relative;
-    z-index: 0;
 }
 
 .cards .card-cont {
@@ -44,4 +32,58 @@ body {
 
 #imgtext {
     margin-top: -600px;
+}
+
+body {
+    font-family: "proxima-bold";
+}
+
+.img1 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Enterprises-2.png);
+    background-size: 170%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Enterprises-3.png);
+    background-size: 170%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Enterprises-4.png);
+    background-size: 170%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    height: 335px;
+    max-width: 335px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+
+#key {
+    font-size: medium;
+    position: relative;
+    animation: mymove 1s infinite;
+    color: #978f8f;
+}
+
+@keyframes mymove {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 5px;
+    }
+    100% {
+        bottom: 0px;
+    }
 }

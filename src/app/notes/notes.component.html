@@ -1,10 +1,15 @@
-<h1 class="text-center">Blogs</h1>
-<div class=" text-center row mb-5">
-<div class="card col-4 ms-5 bg-black mt-5" style="width: 38rem;height: 20rem;" *ngFor="let Notes of notelist">  
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text text-light">{{Notes.text}}</p>
-    <a href="#" class=""></a>
+<h4 class="text-center fs-1 fw-bold m-4 text-black">
+  Blogs</h4>
+<div class="container-fluid">
+  <div class="row  justify-content-start">
+      <ng-container *ngFor=" let details of notes ">
+          <div class="col-9 col-lg-6 ">
+              <div class="shadow-lg pt-2 ps-2 pe-2 pb-5 mb-5 bg-white ">
+                  <a routerLink=" " class="text-center text-decoration-none ">
+                      <div class=" bg-black text-white " style="padding-top: 120px;padding-bottom: 120px;font-size: 15px; "> {{details.p|uppercase}}</div>
+                  </a>
+              </div>
+          </div>
+      </ng-container>
   </div>
-</div>
 </div>

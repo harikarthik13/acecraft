@@ -1,11 +1,11 @@
 <body>
-    <section class="main mt-5">
-        <div class="container-fluid p-0 mt-5">
-            <div class="row bg-white justify-content-center mt-5">
-                <div class="col-5 text-center mt-5">
-                    <a routerLink="" class="text-decoration-none mt-5">
+    <section class="main">
+        <div class="container-fluid p-0">
+            <div class="row bg-white justify-content-center">
+                <div class="col-5 text-center">
+                    <a routerLink="/products" class="text-decoration-none">
                         <img src="https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/honda.png" height="50px" style="padding: 10px" />
-                        <p class="m-0 text-black" id="font">
+                        <p class="m-0 fs-6 text-black" id="font">
                             HONDA CAR'S DEALER MANPOWER UNIFORM
                         </p>
                     </a>
@@ -14,8 +14,8 @@
             <div class="workwear">
                 <div class="row bg-transprent justify-content-center">
                     <div class="col-5 gx-5 text-center">
-                        <h5 class="ms-4 fw-normal fs-3">
-                            Workwear that works.<br /><i class="fa-solid fa-chevron-down fa-beat-fade"></i>
+                        <h5 class="ms-4 fw-bold fs-3">
+                            Workwear that works.<br /><i id="key" class="fa-solid fa-chevron-down fs-3"></i>
                         </h5>
                     </div>
                 </div>
@@ -23,24 +23,23 @@
         </div>
     </section>
     <section class="container-fluid bg-white pt-5 text-center" id="layout2">
-        <h2 class="pt-3 fs-1 text-black fw-normal">Work Relaxed.</h2>
-        <span class="fs-6"><p>we designed our uniforms, we wore them to work every day.</p>
+        <h2 class="pt-3 fs-1 text-black fw-bold">Work Relaxed.</h2>
+        <span class="fs-6 fst-normal"><p>When we designed our uniforms, we wore them to work every day.</p>
       <p>
         We still do. They're comfy, relaxed and designed to suit your workplace.
       </p>
     </span>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="">
-                    <div class="img1 mt-5">
-                        <div>
-                            <span id="imgtext" class="fs-5 fw-normal">F(IT) MATTERS </span
-              ><br />
-              <span class="fs-2 fw-lighter">A size for every one.</span>
-                        </div>
+        <div class="container pt-5">
+            <div class="row justify-content-between">
+                <div *ngFor="let enterprise of enterpriseimages" [class]="enterprise.classname" style="border: none;">
+                    <div class="card-body mt-5 ">
+                        <h6 [class]="enterprise.text1class">{{enterprise.text1}}</h6>
+                        <h2 [class]="enterprise.text2class">{{enterprise.text2}}</h2>
+                        <h2 [class]="enterprise.text3class">{{enterprise.text3}}</h2>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 </body>

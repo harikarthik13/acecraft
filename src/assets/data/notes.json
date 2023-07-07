@@ -1,0 +1,831 @@
+{
+    "notes": [
+      {
+        "p": "styling accessories that complement your formal wear"
+      },
+      {
+        "p": "5 classic looks for her"
+      },
+      {
+        "p": "acing  your formal attire"
+      },
+      {
+        "p": "selecting & styling your workwear"
+      },
+      {
+        "p": "let's talk 'body types',women!"
+      },
+      {
+        "p": "5 classic looks for him"
+      },
+      {
+        "p": "tips for a great outfit"
+      },
+      {
+        "p": "dressing to succeed :the importance of 'formals'"
+      },
+      {
+        "p": "workwear for all season:the women edit"
+      },
+      {
+        "p": "the acecraft differnece"
+      },
+      {
+        "p": "corporate to cupcakes!story of a superwoman"
+      },
+      {
+        "p": "how to complete your college look"
+      },
+      {
+        "p": "dress the right way to impress the right way"
+      }
+    ],
+    "school_logo": [
+      {
+        "img": "http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/jain.jpeg",
+        "link": "/products"
+      },
+      {
+        "img": "http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/rvschool.png",
+        "link": "/products"
+      },
+      {
+        "img": "http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/sophias.jpg",
+        "link": "/products"
+      },
+      {
+        "img": "http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/kumarans.png",
+        "link": "/products"
+      },
+      {
+        "img": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Logo-%20New%20Horizon%20Gurukul.jpg",
+        "link": "/products"
+      },
+      {
+        "img": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/cgis.png",
+        "link": "/products"
+      },
+      {
+        "img": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/NHIS%20LOGO%20Jpeg.jpg",
+        "link": "/products"
+      }
+    ],
+    "acecraft_main1": [
+      {
+        "class": "main",
+        "text1": "Choose Class",
+        "text2": "of Greatess.",
+        "text3": "ACECRAFT FOR COLLEGES"
+      }
+    ],
+    "acecraft_main2": [
+      {
+        "class": "backgroundimg2 me-2",
+        "router": "school",
+        "text1": "A grade",
+        "text2": "over the common.",
+        "text3": "ACECRAFT FOR SCHOOL"
+      },
+      {
+        "class": "backgroundimg3",
+        "text1": "workwear",
+        "router": "enterprises",
+        "text2": "Redefined.",
+        "text3": "ACECRAFT FOR ENTERPRISES"
+      }
+    ],
+    "collegeCarousel": [
+      {
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Screenshot%202019-09-14%20at%202.16.47%20PM.png"
+      },
+      {
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Screenshot%202019-09-18%20at%204.06.18%20PM.png"
+      },
+      {
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Screenshot%202019-09-14%20at%202.15.49%20PM.png"
+      }
+    ],
+    "airen_mask": [
+      {
+        "text1": "Error (404)",
+        "text2": "Page you are requesting does not exist.",
+        "text3": "Go to Home"
+      }
+    ],
+    "enterpriseimages": [
+      {
+        "classname": "col-4 card img1 ",
+        "text1": "F(IT) MATTERS",
+        "text2": "A size for every one.",
+        "text1class": "card-text text-center text-secondary fs-5 mt-5",
+        "text2class": "card-text text-secondary fs-2 fw-lighter mt-4 "
+      },
+      {
+        "classname": "col-4 card img2",
+        "text1": "PERSONALISED BRANDING",
+        "text2": "Your design.",
+        "text3": "Our customization.",
+        "text1class": "card-text text-center text-secondary fs-5 mt-5",
+        "text2class": "card-text text-center text-secondary fs-2 fw-lighter mt-4 ",
+        "text3class": "card-text text-center text-secondary fs-2 fw-lighter"
+      },
+      {
+        "classname": "col-4 card img3",
+        "text1": "TEAM UP FOR TEAM WEAR",
+        "text2": "Bulk orders delivered.",
+        "text3": "seamlessly",
+        "text1class": "card-text text-center text-secondary fs-5 mt-5",
+        "text2class": "card-text text-center text-secondary fs-2 fw-lighter ",
+        "text3class": "card-text text-center text-secondary fs-2 fw-lighter "
+      }
+    ],
+    "Products": [
+      {
+        "value": "school",
+        "id": 1,
+        "title": "CIS Royal Day Wear (Grade 1-5)",
+        "productCode": "CIEDPT20",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 450,
+        "originalPrice": 750,
+        "offerPercent": 40,
+        "gender": "all",
+        "size": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "lengthFlag": false,
+        "length": [
+          0
+        ],
+        "description": [
+          "Made from Poly-cotton. Henley neckline. Short sleeves."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/601d6e74cbfb666ae1145869/webp/elementary-school-480x480.jpg"
+      },
+      {
+        "value": "school",
+        "id": 2,
+        "title": "NHG Shirt (Boys)",
+        "productCode": "NHBSHRT20",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 355,
+        "originalPrice": 535,
+        "offerPercent": 34,
+        "gender": "",
+        "size": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44
+        ],
+        "lengthFlag": false,
+        "length": [
+          0
+        ],
+        "description": [
+          "Made from a fine blend of Cotton and Polyester yarn.",
+          "Spread collar.",
+          "Button fastening.",
+          "Short sleeves.",
+          "Straight hem."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/ms.products/5aa0f5c6f04705ab2ca345c6/images/5aa0f5c6f04705ab2ca345c7/5aa0f5d0f04705ab2ca345f9/webp/5aa0f5d0f04705ab2ca345f9-480x480.jpg"
+      },
+      {
+        "value": "school",
+        "id": 3,
+        "title": "CIS Sky Day Wear (Grade 6-8)",
+        "productCode": "CIMDPT26",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 500,
+        "originalPrice": 825,
+        "offerPercent": 39,
+        "gender": "all",
+        "size": [
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42
+        ],
+        "lengthFlag": false,
+        "length": [
+          0
+        ],
+        "description": [
+          "Made from Poly-cotton. Henley neckline. Short sleeves."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/601d6ffdbb47db6b5e246674/webp/middle-school-480x480.jpg"
+      },
+      {
+        "value": "school",
+        "id": 4,
+        "title": "NHG Shirt (Girls)",
+        "productCode": "NHGSHRT18",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 355,
+        "originalPrice": 535,
+        "offerPercent": 34,
+        "gender": "all",
+        "size": [
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46
+        ],
+        "lengthFlag": false,
+        "length": [
+          0
+        ],
+        "description": [
+          ""
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/ms.products/5aa0f798f04705ab2ca347bb/images/5aa0f798f04705ab2ca347bc/5aa0f79ff04705ab2ca347d7/webp/5aa0f79ff04705ab2ca347d7-480x480.jpg"
+      },
+      {
+        "value": "school",
+        "id": 5,
+        "title": "CIS White Day Wear (Grade 9 & 10)",
+        "productCode": "CIHDPT28",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 500,
+        "originalPrice": 825,
+        "offerPercent": 39,
+        "gender": "all",
+        "size": [
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44
+        ],
+        "lengthFlag": false,
+        "length": [
+          0
+        ],
+        "description": [
+          "Made from Poly-cotton.Henley neckline.Short sleeves."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/601d7044a72cc46b41ac7ca4/webp/hi-school-480x480.jpg"
+      },
+      {
+        "value": "school",
+        "id": 6,
+        "title": "NHG Shorts",
+        "productCode": "NHBSH1220",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 385,
+        "originalPrice": 580,
+        "offerPercent": 34,
+        "gender": "",
+        "size": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "lengthFlag": true,
+        "length": [
+          12,
+          14,
+          16,
+          18,
+          20
+        ],
+        "description": [
+          "Twill Texture Formal Shorts.Poly-Viscose Fabric."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/ms.products/5aa0f01491c2e5ab32f3385f/images/5aa0f01491c2e5ab32f33860/5aa0f01d91c2e5ab32f33897/webp/5aa0f01d91c2e5ab32f33897-640x640.jpg"
+      },
+      {
+        "value": "school",
+        "id": 7,
+        "title": "CIS White Day Wear (Grade 11 & 12)",
+        "productCode": "CIBDPT30",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 500,
+        "originalPrice": 825,
+        "offerPercent": 39,
+        "gender": "all ",
+        "size": [
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44
+        ],
+        "description": [
+          "Made from Poly-cotton. Henley neckline. Short sleeves."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/601d706374c88c6b06d39dc1/webp/h-school-640x640.jpg"
+      },
+      {
+        "value": "school",
+        "id": 8,
+        "title": "NHG Trousers [Boys, Grade 5-10]",
+        "productCode": "NHBTRS3224",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 605,
+        "originalPrice": 910,
+        "offerPercent": 34,
+        "gender": "all",
+        "size": [
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "lengthFlag": true,
+        "length": [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44
+        ],
+        "description": [
+          "Twill Texture Formal trouser.Poly-Viscose Fabric."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/ms.products/5aa0f01491c2e5ab32f33832/images/5aa0f01491c2e5ab32f33833/5aa0f01e91c2e5ab32f338a1/webp/5aa0f01e91c2e5ab32f338a1-640x640.jpg"
+      },
+      {
+        "value": "school",
+        "id": 9,
+        "title": "CIS Day Wear Shorts",
+        "productCode": "CIDCSH1220",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 475,
+        "originalPrice": 793,
+        "offerPercent": 40,
+        "gender": "all",
+        "size": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38
+        ],
+        "lengthFlag": true,
+        "length": [
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24
+        ],
+        "description": [
+          "Made from cotton-Lycra.",
+          "Elasticated waist .",
+          "Cargo pocket detail.",
+          "Side pockets"
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/601d708bcbfb666ae1149973/webp/cisb-shorts-640x640.jpg"
+      }
+    ],
+    "honda": [
+      {
+        "value": "honda",
+        "id": 1,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647eea25c87d60b3cd18a95d/webp/hndc-sales-manpower-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER [Discounted Bundle]",
+        "pcode": "HNDC-SALES/W",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 4149,
+        "originalprice": 4799,
+        "offerpercent": 14,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 2,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647da9185c62e5426f794785/webp/hndc-blazer-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER- County Jacket",
+        "pcode": "HNDC-SALES/CJ-W",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 999,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 3,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647dfa5e4f7c537b4b5f0b05/webp/hndc-shirt-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER- County Shirts",
+        "pcode": "HNDC-SALES/CS-W",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 800,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 4,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647db254ecabd82217ea3a9f/webp/hndc-trouser-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER- County Trousers",
+        "pcode": "HNDC-SALES/CT-W",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 900,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 5,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647db88e32202b73567736da/webp/hndc-tie-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER- Ties",
+        "pcode": "HNDC-SALES/TIE",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 250,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 6,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647e00f63d7d5614b12c88c3/webp/hndc-cravat-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER- Cravat",
+        "pcode": "HNDC-SALES/CRAVAT",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 250,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 7,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647dfb66973f7613d7584371/webp/hndc-lapel-pin-480x480.png",
+        "text": "HONDA CARS | SALES MANPOWER- Lapel Pin",
+        "pcode": "HNDC-SALES/LAPELPIN",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 150,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 8,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647dca54c555fc3016e54b9d/webp/waist-coat-480x480.png",
+        "text": "HONDA CARS | SUPPORT STAFF- County Waistcoat",
+        "pcode": "HNDC-SALES/CW",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 790,
+        "department": [
+          "PANTRY"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 9,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/648c80c9576be1481b336ae9/webp/hndc-support-staff-shirt-480x480.png",
+        "text": "HONDA CARS | SUPPORT STAFF- County Shirts",
+        "pcode": "HNDC-SALES/CS-W",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 420,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 10,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647dfa72b51ea3145ebc47cb/webp/hndc-trouser-480x480.png",
+        "text": "HONDA CARS | SUPPORT STAFF- County Trousers",
+        "pcode": "HNDC-SALES/CT-W",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 590,
+        "gender": [
+          "WOMAN",
+          "MAN"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      },
+      {
+        "value": "honda",
+        "id": 11,
+        "imgSrc": "https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/647dba4a32202b735677c53b/webp/hndc-lapel-pin-480x480.png",
+        "text": "HONDA CARS | SUPPORT STAFF-PANTRY- LAPEL PIN & GLOVES",
+        "pcode": "HNDC-SALES/LAPELPIN-G",
+        "brand": "ACECRAFT",
+        "soldby": "Alchemy",
+        "price": 199,
+        "gender": [
+          "UNISEX"
+        ],
+        "quantity": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "description": [
+          "Made from high-performance fibres with enhanced elasticity, making this super-comfortable."
+        ]
+      }
+    ],
+    "cart_list": [
+      {
+        "id": 3,
+        "title": "CIS Sky Day Wear (Grade 6-8)",
+        "productCode": "CIMDPT26",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 500,
+        "originalPrice": 825,
+        "offerPercent": 39,
+        "gender": "all",
+        "size": 30,
+        "description": [
+          "Made from Poly-cotton. Henley neckline. Short sleeves."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/601d6ffdbb47db6b5e246674/webp/middle-school-480x480.jpg",
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "title": "NHG Shorts",
+        "productCode": "NHBSH1220",
+        "brand": "ACECRAFT",
+        "soldBy": "Alchemy",
+        "price": 385,
+        "originalPrice": 580,
+        "offerPercent": 34,
+        "gender": "",
+        "size": 30,
+        "description": [
+          "Twill Texture Formal Shorts.Poly-Viscose Fabric."
+        ],
+        "imgSrc": "https://d2pyicwmjx3wii.cloudfront.net/s/5997cc7c4d6e8ffa20e50aae/ms.products/5aa0f01491c2e5ab32f3385f/images/5aa0f01491c2e5ab32f33860/5aa0f01d91c2e5ab32f33897/webp/5aa0f01d91c2e5ab32f33897-640x640.jpg",
+        "quantity": 1
+      }
+    ],
+    "user_details": [
+      {
+        "Fname": "Siva",
+        "Lname": "Bharath",
+        "Email": "siva@gmail.com",
+        "Password": "Siva@1234",
+        "cPassword": "Siva@1234",
+        "Radiobtn": "enterprises",
+        "Dealership": "siva&co",
+        "DealershipNum": "12345678",
+        "City": "ngl",
+        "State": "Tamil Nadu",
+        "GSTNum": "123",
+        "isLogged": true,
+        "id": 1
+      }
+    ]
+  }

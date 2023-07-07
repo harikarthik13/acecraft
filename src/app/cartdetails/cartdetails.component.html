@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row justify-content-center fs-1 mt-5" [hidden]="!isHidden">
+        Your bag total is {{ totalPrice(cart) | currency : "INR" : "symbol" : "3.0" }}
+    </div>
+    <hr class="border-3" [hidden]="!isHidden">
+    <div class="container" *ngFor="let item of cart">
+        <div class="row">
+            <div class="col-3">
+                <img [src]="item.imgSrc" (click)="viewProduct(item.id)" alt="" width="350px" height="350px" style="cursor: pointer;">
+            </div>
+            <div class="col-5">
+                <div class="fs-4  fw-bold  text-center text-black">{{item.title}}<br><span class="fw-normal fs-5">Size:{{item.size}}</span></div>
+            </div>
+            <div class="col-1 mt-2 text-center fw-bold text-black">
+                <span class="me-2 quantity" (click)="onDecrement(item)">-</span> <span class="border border-1 px-2">{{item.quantity}}</span> <span class="ms-1 quantity" (click)=" onIncerment(item)">+</span>
+            </div>
+            <div class="col-3 fs-4 fst-normal text-center text-black">
+                {{item.price*item.quantity | currency : "INR" : "symbol" : "3.0"}}<br>
+                <a (click)="delete(item)" class="text-danger fs-6 fst-normal text-decoration-none">Remove</a>
+            </div>
+        </div>
+        <hr class=" border-3">
+    </div>
+    <div class="row pb-3" [hidden]="!isHidden">
+        <div class="col-5">
+
+            <label class="fs-5">Enter Coupon Code here:</label><br>
+            <input type="text" class="mt-2 mb-3" style="width: 300px;">
+            <span type="button" class="border border-2 px-2 fs-6 border-black">Apply!</span>
+        </div>
+        <div class="col-2 pt-4">
+            <p class="fs-5 fw-bold text-secondary">Sub Total </p>
+            <p class="fs-4 fw-bold text-black mt-4">Total</p>
+        </div>
+        <div class="col-5 pt-4">
+
+            <p class="text-end fs-5 fw-bold  text-secondary">{{ totalPrice(cart) | currency : "INR" : "symbol" : "3.0" }}</p>
+            <p class="text-end fs-4 fw-bold mb-0 text-black">{{ totalPrice(cart) | currency : "INR" : "symbol" : "3.0" }}
+            </p>
+
+            <div class="row mt-2">
+                <span>
+                    <span><button type="button" class="ms-3 float-end border-1 border-black py-1" (click)="makePayment(totalPrice(cart))">Place
+                            Order</button></span>
+                <span><button type="button" class="float-end border-1 border-black py-1" routerLink="/">Continue
+                            Shopping</button></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div [style.min-height]="isHidden? '0':'60vh'" [style.display]="isHidden? 'none':'block'" class="container">
+
+    <div class="row mt-5">
+        <h4 [style.display]="isHidden? 'none':'block'">Your Shopping cart is empty!</h4>
+
+        <button [style.display]="isHidden? 'none':'block'" class="col-2 mt-3 text-center" id="continueshopping" routerLink=""><p>Continue Shopping</p></button>
+    </div>
+</div>

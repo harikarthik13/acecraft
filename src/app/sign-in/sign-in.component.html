@@ -1,0 +1,53 @@
+<body>
+    <div class="container border border-1 mt-4 mb-4">
+        <div class="row justify-content-center mt-4 mb-4">
+            <div class="col-lg-4 col-md-12 login shadow-lg">
+                <form [formGroup]="react_form" (ngsubmit)="onSubmit(react_form)">
+                    <div class="form-group">
+                        <div class="text-center ">
+                            <p class="fs-2 mt-5">Login with ACECRAFT </p>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control mt-3" placeholder="Email" formControlName="Email" [ngClass]="{'is-invalid':Email.errors &&
+                (Email.touched || Email.dirty),'is-valid': Email.valid}" />
+
+                            <div class="invalid-feedback text-center fs-6 fst-normal text-danger">
+
+                                <strong *ngIf="Email.errors?.required">Enter a valid Email</strong>
+                                <strong *ngIf="Email.errors?.minlength">Email length must be greater than
+                        {{ Email.errors?.minlength.requiredLength }} characters.
+                        {{Email.errors?.minlength.requiredLength -Email.errors?.minlength.actualLength}}more characters required.
+                    </strong>
+                                <strong *ngIf="Email.errors?.maxlength">Email length must be less than 17 characters
+                    </strong>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center fs-6 fst-normal text-danger">
+                            <input type="password" class="form-control" placeholder="Password" formControlName="password" [ngClass]="{'is-invalid':password.errors &&
+                    (password.touched || password.dirty),'is-valid': password.valid}" required/>
+                            <div class="invalid-feedback">
+                                <strong *ngIf="password.errors?.required">Required Field</strong>
+                                <strong *ngIf="password.errors?.pattern">Password pattern:1 Uppercase,1 Spl character,1 Numeric value</strong>
+                                <strong *ngIf="password.errors?.minlength">password length must be greater than
+                            {{ password.errors?.minlength.requiredLength }} characters.
+                            {{password.errors?.minlength.requiredLength -password.errors?.minlength.actualLength}}more characters required.
+                        </strong>
+                                <strong *ngIf="password.errors?.maxlength">password length must be less than 17 characters{{password.errors?.maxlength.actualLength -password.errors?.maxlength.requiredLength}}more than 17 characters.
+                        </strong>
+                            </div>
+                        </div>
+                        <br>
+
+                        <button type="submit" class="mb-3 col-12 bg-black text-white" [disabled]="!react_form.valid" (click)="onSubmit(react_form)">LogIn</button>
+
+                        <div class="text-center ">
+                            <small class=""> User Registration?<a routerLink="/register">Click Here!!</a></small>
+                        </div>
+                    </div>
+                    <p-toast></p-toast>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

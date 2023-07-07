@@ -1,0 +1,36 @@
+<body class="bg-white">
+    <section class="background1">
+        <div class="container border-0 p-0">
+            <div class="row">
+                <div class="col-5 text-center" style="margin-left: 350px; font-weight: 100; margin-top: 30px">
+                    <span class="fs-2 g-5 fw-lighter text-secondary">Decode</span><br />
+                    <span class="fs-2 g-5 fw-normal text-secondary">your kind of designer uniforms.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row" style="margin-top: 50px; padding-bottom: 40px">
+                <div class="col-4 fs-5 fw-bold text-center">SCHOOL</div>
+                <div class="col-4 text-start">-{{ count_school }}item</div>
+                <div class="col-3" style="float: right">
+                    <select (change)="onOptionsSelected($event)">
+                        <option value=" " disabled selected hidden>SORT BY</option>
+                        <option value="lth">Price : Low to High</option>
+                        <option value="htl">Price : High to Low</option>
+                        <option value="nasc">Name : Ascending Order</option>
+                        <option value="ndesc">Name : Descending Order</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card col-4" *ngFor="let item of productsList | sort : [sortParam, sortDirection]">
+                    <app-single-product [products]="item"> </app-single-product>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

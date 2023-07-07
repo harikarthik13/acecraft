@@ -1,0 +1,28 @@
+.background1 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/MJK07401.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    padding-top: 250px
+}
+
+.card {
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    border: 1px solid lightgray;
+}
+
+.card-img {
+    height: 376px;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 10px;
+}
