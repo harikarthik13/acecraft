@@ -7,8 +7,10 @@ import { ServiceService } from 'src/services/service.service';
 })
 export class AirenMaskComponent implements OnInit{
 constructor(private service:ServiceService){}
+//initialize an empty array
 airen_mask:any[]=[]
 ngOnInit(): void {
+  //To get the datas from json file
   this.service.getAiren_mask().subscribe((res)=>{this.airen_mask=res})
 }
 }

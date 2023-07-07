@@ -1,3 +1,4 @@
+/*style for the first section*/
 .main {
     background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Home-1.jpg);
     width: 100%;
@@ -5,7 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*style for the second section*/
 .backgroundimg2 {
     background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/home3.jpg);
     width: 100%;

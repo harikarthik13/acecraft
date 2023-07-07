@@ -6,16 +6,18 @@ import { ServiceService } from 'src/services/service.service';
   styleUrls: ['./acecraft.component.css']
 })
 export class AcecraftComponent implements OnInit {
+  //initialize an empty array
   acecraft_main1:any[]=[]
   acecraft_main2:any[]=[]
   constructor(private service:ServiceService){}
   
   ngOnInit(): void {
+    //To get the data from the json file
     this.service.getAcecraft_main1().subscribe((res) => {
       this.acecraft_main1 = res;
     });
     this.service.getAcecraft_main2().subscribe((res) => {
       this.acecraft_main2 = res;
     });
-  }
+  } 
 }

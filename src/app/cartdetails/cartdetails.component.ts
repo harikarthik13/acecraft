@@ -32,7 +32,7 @@ export class CartdetailsComponent implements OnInit{
       },
     });
     paymentHandler.open({
-      name: 'Course',
+      name: 'Uniform',
       description: 'Order Details',
       amount: amount,
     });
