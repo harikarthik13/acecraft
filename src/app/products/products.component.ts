@@ -14,7 +14,8 @@ export class ProductsComponent implements OnInit {
   sortParam: any;
   sortDirection: any;
   optionSelected: any;
-
+  
+//sorting
 
   onOptionsSelected(event: any) {
     console.log(event.target.value); 

@@ -11,10 +11,12 @@ import { UserDetailsService } from 'src/services/user-details.service';
 })
 
 export class NavComponent implements OnInit {
+  //mouse enter function
   public show: boolean = true;
   toggle() {
     this.show = !this.show;
   }
+  //logout option show if sign in our account
   cart_Count = 0;
   auth: boolean = false
   constructor(private cartSvc: CartService, private authService: UserService, private details: UserDetailsService,private router:Router ) { }

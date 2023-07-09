@@ -39,6 +39,7 @@ cart:Cartlist={
 }
 quantity:number=1;
 size:number | string | undefined;
+//items added to the cart
 addToCart(item:any){
   this.cart.id=item.id;
   this.cart.title=item.title;
